@@ -1,0 +1,155 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.background {
+    background-color: orange;
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 70px;
+
+}
+
+.rock_icon {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(247, 189, 81);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock_icon i {
+    font-size: 60px;
+}
+
+.paper_icon {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(247, 189, 81);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper_icon i {
+    font-size: 60px;
+
+}
+
+.scirrors_icon {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(247, 189, 81);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scirrors_icon i {
+    font-size: 60px;
+}
+
+.choose_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+
+}
+
+.loseorwin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lose {
+    background-color: rgb(233, 146, 146);
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+}
+
+.lose h6 {
+    color: rgb(134, 1, 1);
+}
+
+.win {
+    background-color: rgb(146, 255, 146);
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+}
+
+.win h6 {
+    color: green;
+}
+
+.draw {
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+}
+
+.draw h6 {
+    color: white;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
